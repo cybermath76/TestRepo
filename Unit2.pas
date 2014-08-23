@@ -9,7 +9,9 @@ uses
 type
   TForm2 = class(TForm)
     btn1: TButton;
+    btn2: TButton;
     procedure btn1Click(Sender: TObject);
+    procedure btn2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -26,6 +28,11 @@ implementation
 procedure TForm2.btn1Click(Sender: TObject);
 begin
   ShowMessage('master');
+end;
+
+procedure TForm2.btn2Click(Sender: TObject);
+begin
+  ShowMessage('iss53');
 end;
 
 end.
