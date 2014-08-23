@@ -25,7 +25,7 @@ implementation
 
 procedure TForm2.btn1Click(Sender: TObject);
 begin
-  ShowMessage('master');
+  ShowMessage('master - hotfix');
 end;
 
 end.
